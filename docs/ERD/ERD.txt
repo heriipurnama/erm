@@ -1,0 +1,11 @@
++----------------+      +----------------+       +-----------------+
+|  Authentication|      |   Customer     |       |      Order      |
++----------------+      +----------------+       +-----------------+
+| ID (PK)        |      | ID (PK)        |       | ID (PK)         |
+| Username       |      | Name           |       | CustomerID (FK) |
+| Password       |      | Email          |       | Product         |
+| CreatedAt      |      | Address        |       | Quantity        |
+| UpdatedAt      |      | CreatedAt      |       | Price           |
++----------------+      | UpdatedAt      |       | CreatedAt      |
+                        +----------------+       | UpdatedAt      |
+                                               +-----------------+
