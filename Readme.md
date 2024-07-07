@@ -40,8 +40,8 @@ This project is a RESTful API application for managing customers, orders, and au
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/your-repository.git
-cd your-repository
+git@github.com:heriipurnama/erm.git
+cd erm
 ```
 
 ### 2. Install Dependencies
