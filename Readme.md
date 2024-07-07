@@ -114,7 +114,7 @@ docker run -p 8080:8080 --env-file .env erm-api
 - **Update Customer**: `PUT /customers/:id`
   - **Request Body**: `{"name": "John Doe Updated", "email": "john.doe.updated@example.com", "address": "456 Another St"}`
 - **Delete Customer**: `DELETE /customers/:id`
-- **Search Customers**: `GET /customers/search?query=name`
+- **Search Customers**: `GET /customers/search?q=name`
 
 ### Orders
 
@@ -125,7 +125,7 @@ docker run -p 8080:8080 --env-file .env erm-api
 - **Update Order**: `PUT /orders/:id`
   - **Request Body**: `{"product": "Widget Updated", "quantity": 15, "price": 29.99}`
 - **Delete Order**: `DELETE /orders/:id`
-- **Search Orders**: `GET /orders/search?query=product`
+- **Search Orders**: `GET /orders/search?q=product`
 
 ### Postman Collection
 - **on Dir**: `/docs/postman_collection`
